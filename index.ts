@@ -3,9 +3,7 @@ import { createWriteStream } from 'node:fs';
 import path from 'node:path';
 import { performance, PerformanceObserver } from 'node:perf_hooks';
 
-// import { linearSearch } from './linear';
-
-const INPUT_SIZE = 20000;
+const INPUT_SIZE = 10;
 const TARGET = INPUT_SIZE - 1;
 const INPUT_FILE = './input.json';
 
