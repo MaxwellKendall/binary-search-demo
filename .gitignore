@@ -2,3 +2,5 @@
 node_modules
 input.json
 package-lock.json
+
+.DS_Store
