@@ -3,8 +3,8 @@ import { createWriteStream } from 'node:fs';
 import path from 'node:path';
 import { performance, PerformanceObserver } from 'node:perf_hooks';
 
-const INPUT_SIZE = 10;
-const TARGET = INPUT_SIZE - 1;
+const INPUT_SIZE = 5000;
+const TARGET = INPUT_SIZE - 1; // searching for the last item in the array
 const INPUT_FILE = './input.json';
 
 const obs = new PerformanceObserver((list) => {
